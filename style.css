@@ -35,8 +35,8 @@
 }
 
 .grid{
-    width: 80%;
-    height: 780px;
+    width: 83%;
+    min-height: 780px;
     /* background-color: aqua; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -71,11 +71,11 @@
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    transition: all 0.15s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .imagecontainer img:hover{
-    transform: scale(1.04);
+    transform: scale(1.05);
 }
 
 h3,.content p{
@@ -139,17 +139,18 @@ h3{
 .imagecontainer{
     margin-bottom: 25px;
     width: 100%;
-    height: 75%;
+    min-height: 75%;
 }
 
 .tag{
-    border: solid  rgba(67, 64, 64, 0.962) 1px;
+    border: solid  rgba(67, 64, 64, 0.962) 1.3px;
     border-radius: 5px;
     height: 50%;
-    width: 40%;
+    min-width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
     color: rgba(67, 64, 64, 0.962);
     margin-top: 10px;
     margin-right: 10px;
@@ -161,7 +162,7 @@ h3{
 }
 
 .cardname:hover{
-    color: rgba(34, 34, 114, 0.842);
+    color: darkblue;
 }
 
 
