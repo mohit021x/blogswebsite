@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.main-header h2{
+    font-family: "Lexend", serif;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.main-header p{
+    color: rgba(81, 77, 77, 0.962);
+    font-weight: 510;
+}
