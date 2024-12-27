@@ -177,6 +177,65 @@ h3{
     color: darkblue;
 }
 
+@media (max-width: 849px) {
+    .grid{
+        height: auto;
+        width: 50%;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(8,1fr);
+    }
+    h3{
+        font-size: 14.5px;
+        margin-bottom: 10px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .item{
+        gap: 35px;
+    }
+    .info img{
+        height: 20px;
+        border-radius: 20px;
+        /* border: solid black 0.3px; */
+    }
+    .date p{
+        font-size: 8.5px;
+    }
+    #name{
+        font-size: 10px;
+    }
+    .tag p{
+        font-size: 10px;
+    }
+    .tag{
+        padding: 8px;
+    }
+    .summary{
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 1230px) and (max-width: 1430px){
+    .grid{
+        height: auto;
+        width: 85%;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1229px){
+    .grid{
+        height: 1800px;
+        width: 75%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+}
+
+
+
 
 
 
